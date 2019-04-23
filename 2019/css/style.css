@@ -1,0 +1,139 @@
+/* 前提：サイズは仮なので要調整 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color : #F1EFEB;
+}
+
+#top_illustration {
+    margin-right: auto;
+    margin-left: auto;   
+    display: block;
+}
+
+.header-nav {
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+#tabukawa_top_logo {
+    margin-left: 15%;
+}
+
+.header-nav ul {
+    display: inline-block;
+}
+
+#nav {
+    list-style: none;
+    float: right;
+    margin-right: 15%;
+}
+   
+#nav li {
+    width: 100px;
+    text-align: center;
+    /* float: left; */
+    height: 30px;
+    display:inline-block;
+    
+    /* line-height: 50px; */
+}
+   
+#nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color:Black;
+}
+
+#logo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#about_logo {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;   
+    display: block;
+}
+
+#guests_logo {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;   
+    display: block;
+}
+
+#creator_logo {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;   
+    display: block;
+}
+
+#access_logo {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#access_tokyo_logo {
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#access_tokyo_map {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;   
+    display: block;
+}
+
+#access_osaka_logo {
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;   
+    display: block;
+}
+
+#access_osaka_map {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;   
+    display: block;
+}
+
+
+
+
+/* スマホ対応 */
+img {
+    max-width : 100% ;
+    height : auto ;
+}
+
+/*window-size 1200px以下からはここも読む*/
+@media screen and (max-width: 1024px) {
+    /* CSSをかく */
+    .header-nav ul {
+        display: none;
+    }   
+}
+
+/*window-size 480px以下からはここも読む*/
+@media screen and (max-width: 480px) {
+    iframe { 
+        width : 70%;
+        height: 70%;
+    }
+}
