@@ -15,7 +15,7 @@ body {
 }
 
 .header-nav {
-    margin-top: 25px;
+    margin-top: 50px;
     overflow: hidden;
 }
 
@@ -132,6 +132,48 @@ img {
 
 /*window-size 480px以下からはここも読む*/
 @media screen and (max-width: 480px) {
+    .header-nav {
+        margin-top: 15px;
+    }
+    #tabukawa_top_logo {
+        width: 30%;
+        height: 30%;
+    }
+    #logo {
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #about_logo {
+        margin-bottom: 30px;
+    }
+
+    #guests_logo {
+        margin-bottom: 30px;
+    }
+    #creator_logo {
+        margin-bottom: 30px;
+    }
+
+    #access_logo {
+        margin-bottom: 30px;
+    }
+
+    #access_tokyo_logo {
+        margin-bottom: 10px;
+    }
+    #access_tokyo_map {
+        margin-bottom: 30px;
+    }
+
+    #access_osaka_logo {
+        margin-bottom: 10px;
+    }
+
+    #access_osaka_map {
+        margin-bottom: 30px;
+    }
     iframe { 
         width : 70%;
         height: 70%;
